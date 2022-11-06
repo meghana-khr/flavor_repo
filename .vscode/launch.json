@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cat",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "cat",
+                "-t",
+                "./lib/cat.dart"
+            ]
+        },
+        {
+            "name": "dog",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "dog",
+                "-t",
+                "./lib/dog.dart"
+            ]
+        },
+    ]
+}
